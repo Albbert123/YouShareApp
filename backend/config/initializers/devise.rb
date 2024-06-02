@@ -27,9 +27,6 @@ Devise.setup do |config|
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
 
   # ==> reemplazar 'GOOGLE_CLIENT_ID', 'GOOGLE_CLIENT_SECRET', 'GITHUB_CLIENT_ID', 'GITHUB_CLIENT_SECRET', 'TWITTER_API_KEY', 'TWITTER_API_SECRET'
-    #     con tus claves reales obtenidas al registrar tu aplicación en cada uno de los servicios.
-  #config.omniauth :github, '51329cd28e35ff32ffc5', '3ca26296d99843feb6c98f977f827cf9d664b0e1', scope: 'user,public_repo'
-  #config.omniauth :twitter, 'TWITTER_API_KEY', 'TWITTER_API_SECRET', {}
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
