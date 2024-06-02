@@ -28,7 +28,6 @@ Devise.setup do |config|
 
   # ==> reemplazar 'GOOGLE_CLIENT_ID', 'GOOGLE_CLIENT_SECRET', 'GITHUB_CLIENT_ID', 'GITHUB_CLIENT_SECRET', 'TWITTER_API_KEY', 'TWITTER_API_SECRET'
     #     con tus claves reales obtenidas al registrar tu aplicación en cada uno de los servicios.
-  #config.omniauth :google_oauth2, '116293502765-ifgq33tvpd1do2po9b0195m7eipav0td.apps.googleusercontent.com', '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', {}
   #config.omniauth :github, '51329cd28e35ff32ffc5', '3ca26296d99843feb6c98f977f827cf9d664b0e1', scope: 'user,public_repo'
   #config.omniauth :twitter, 'TWITTER_API_KEY', 'TWITTER_API_SECRET', {}
 
